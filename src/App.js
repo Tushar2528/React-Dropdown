@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import Select from "./Components/Select";
 
 function App() {
+
+  
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    
+      <div className="p-10 bg-cyan-500 w-6/12 h-[45%] absolute text-center left-[25%] mt-16 rounded-lg">
+        <Select/>
+        
+      </div>
+        
+      
+    
   );
 }
 
